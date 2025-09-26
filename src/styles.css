@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #23252C;
+  margin: 40px 0;
+}
+
+header {
+  text-align: center;
+}
+
+.card {
+  height: auto;
+  width: 317px;
+  background: #F5F5F5;
+  justify-content: center;
+}
+
+.card, footer {
+   border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  gap: 18px;
+  max-width: 317px;
+  justify-content: center;
+  margin: 18px 0px;
+}
+
+.main-btn {
+  width: 115px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid #D1D5DB;
+  background: white;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  font-weight: 500;
+  color: #374151;
+}
+
+.blue {
+  background: #297FE5;
+  color: white;
+  border: none;
+}
+
+img {
+  max-height: 317px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+  object-position: 0 10%;
+}
+
+.card h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2B283A;
+  margin: 10px 0px 0px 0px;
+}
+
+.card h2 {
+  font-size: 0.8rem;
+  color: #F47D27;
+}
+
+.card h3 {
+  font-size: 0.64rem;
+  margin: 8px 0;
+}
+
+.card h2, h3 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-envelope, .fa-linkedin {
+  margin: 0 3px;
+}
+
+.fa-linkedin {
+  color: white;
+  font-size: 1rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.64rem;
+  padding: 10px 0;
+  line-height: 1.5;
+}
+
+p, a {
+  color: #4A4E74;
+}
+
+.about, .facts {
+  padding: 0.5rem 2.15rem;
+}
+
+footer {
+  height: 64px;
+  width: 100%;
+  background: #D5D4D8;
+  color: #918E9B !important;
+  font-size: 2rem;
+  text-align: center;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 13px;
+  margin-top: 30px;
+}
+
+/* hover states */
+
+button:hover, footer > .fa-brands:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
