@@ -3,7 +3,7 @@
 export default function Info(){
     return(
     <header>
-        <img src="/selfie.png"/>
+        <img src="/public/selfie.png"/>
         <h1>Laura Smith</h1>
         <h2>Frontend Developer</h2>
         <h3><a href="https://laurasmith.website/">laurasmith.website</a></h3>
